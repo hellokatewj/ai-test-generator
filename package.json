@@ -1,0 +1,25 @@
+{
+  "name": "ai-test-generator",
+  "version": "1.0.0",
+  "description": "An AI-powered tool to automatically generate test cases for React",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellokatewj/ai-test-generator.git"
+  },
+  "author": "hellokatewj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellokatewj/ai-test-generator/issues"
+  },
+  "homepage": "https://github.com/hellokatewj/ai-test-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "request-promise": "^4.2.6"
+  }
+}
